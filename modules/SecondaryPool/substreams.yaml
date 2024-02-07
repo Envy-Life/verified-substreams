@@ -18,7 +18,7 @@ binaries:
 modules:
   - name: map_pools
     kind: map
-    initialBlock: 9014502
+    initialBlock: 9090390
     inputs:
       - source: sf.ethereum.type.v2.Block
     output:
@@ -33,7 +33,7 @@ modules:
 
   - name: map_trades
     kind: map
-    initialBlock: 9014502
+    initialBlock: 9090390
     inputs:
       - source: sf.ethereum.type.v2.Block
       - store: store_pools_created
@@ -49,7 +49,7 @@ modules:
 
   - name: map_trades_check
     kind: map
-    initialBlock: 9014502
+    initialBlock: 9090390
     inputs:
       - source: sf.ethereum.type.v2.Block
       - store: store_trade_created
